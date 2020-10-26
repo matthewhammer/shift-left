@@ -1,0 +1,17 @@
+{
+	"canisters": {
+		"shift-left": {
+			"build": "make",
+			"candid": "src/main.did",
+			"type": "custom",
+			"wasm": "build/main.wasm"
+		}
+	},
+	"dfx": "0.6.12",
+	"networks": {
+		"local": {
+			"bind": "127.0.0.1:8080",
+			"type": "ephemeral"
+		}
+	}
+}
